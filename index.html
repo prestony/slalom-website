@@ -243,7 +243,7 @@
           <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up">
             <div class="unit-4">
               <div class="unit-4-icon" style="text-align: center;">
-                <img src="images/consultation.png"  class="img-fluid w-25 mb-4">
+                <img src="images/b-consulting.png"  class="img-fluid w-27 mb-4">
               </div>
               <div>
                 <h3 style="text-align: center;">Business Consulting</h3>
@@ -255,7 +255,7 @@
           <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="100">
             <div class="unit-4">
               <div class="unit-4-icon" style="text-align: center;">
-                <img src="images/advisory.png"  class="img-fluid w-25 mb-4">
+                <img src="images/financial-advisor.png"  class="img-fluid w-27 mb-4">
               </div>
               <div>
                 <h3 style="text-align: center;">Financial Advisory</h3>
@@ -267,7 +267,7 @@
           <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="200">
             <div class="unit-4">
               <div class="unit-4-icon" style="text-align: center;">
-                <img src="images/investment.png"  class="img-fluid w-25 mb-4">
+                <img src="images/investment-strategy.png"  class="img-fluid w-27 mb-4" >
               </div>
               <div>
                 <h3 style="text-align: center;">Investment Strategies</h3>
@@ -280,10 +280,10 @@
           <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="">
             <div class="unit-4">
               <div class="unit-4-icon" style="text-align: center;">
-                <img src="images/interview.png"  class="img-fluid w-25 mb-4">
+                <img src="images/financial-planning.png"  class="img-fluid w-27 mb-4">
               </div>
               <div>
-                <h3 style="text-align: center;">Business Consulting</h3>
+                <h3 style="text-align: center;">Financial Planning</h3>
                 <p>From financial planning to sustainable growth, our support helps businesses navigate complex financial landscapes.</p>
               </div>
             </div>
@@ -291,7 +291,7 @@
           <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="100">
             <div class="unit-4">
               <div class="unit-4-icon" style="text-align: center;">
-                <img src="images/wealth.png"  class="img-fluid w-25 mb-4">
+                <img src="images/wealth-management.png"  class="img-fluid w-27 mb-4">
               </div>
               <div>
                 <h3 style="text-align: center;">Wealth Management</h3>
@@ -302,7 +302,7 @@
           <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="200">
             <div class="unit-4">
               <div class="unit-4-icon" style="text-align: center;">
-                <img src="images/financiaeducation.png"  class="img-fluid w-25 mb-4">
+                <img src="images/f-education.png"  class="img-fluid w-27 mb-4">
               </div>
               <div>
                 <h3 style="text-align: center;">Financial Education</h3>
@@ -314,7 +314,7 @@
           <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="200">
             <div class="unit-4">
               <div class="unit-4-icon" style="text-align: center;">
-                <img src="images/vision.png"  class="img-fluid w-25 mb-4">
+                <img src="images/market-insight.png"  class="img-fluid w-27 mb-4">
               </div>
               <div>
                 <h3 style="text-align: center;">Market Insights</h3>
@@ -326,7 +326,7 @@
           <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="200">
             <div class="unit-4">
               <div class="unit-4-icon" style="text-align: center;">
-                <img src="images/risk.png"  class="img-fluid w-25 mb-4">
+                <img src="images/risk-mangement.png"  class="img-fluid w-27 mb-4">
               </div>
               <div>
                 <h3 style="text-align: center;">Risk Management</h3>
@@ -338,7 +338,7 @@
           <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="200">
             <div class="unit-4">
               <div class="unit-4-icon" style="text-align: center;">
-                <img src="images/planning.png"  class="img-fluid w-25 mb-4">
+                <img src="images/retirement.png"  class="img-fluid w-27 mb-4">
               </div>
               <div>
                 <h3 style="text-align: center;">Retirement Planning</h3>
@@ -623,55 +623,27 @@
         </div>
         <div class="row">
           <div class="col-md-12 mb-5">
-
-            
-
-            <form action="#" class="p-5 bg-white">
-              
-              <h2 class="h4 text-black mb-5">Contact Form</h2> 
-
-              <div class="row form-group">
-                <div class="col-md-6 mb-3 mb-md-0">
-                  <label class="text-black" for="fname">First Name</label>
-                  <input type="text" id="fname" class="form-control">
-                </div>
-                <div class="col-md-6">
-                  <label class="text-black" for="lname">Last Name</label>
-                  <input type="text" id="lname" class="form-control">
-                </div>
+            <form id="contact-form" method="POST" action="sendmail.php">
+              <div class="form-row form-error" style="display:none;"></div>
+              <div class="form-row">
+                <label for="contact-form-name">Name:</label>
+                <input id="contact-form-name" class="form-input" type="text" name="name" required autocomplete="off">
               </div>
-
-              <div class="row form-group">
-                
-                <div class="col-md-12">
-                  <label class="text-black" for="email">Email</label> 
-                  <input type="email" id="email" class="form-control">
-                </div>
+              <div class="form-row">
+                <label for="contact-form-email">Email:</label>
+                <input id="contact-form-email" class="form-input" type="email" name="email" required autocomplete="off">
               </div>
-
-              <div class="row form-group">
-                
-                <div class="col-md-12">
-                  <label class="text-black" for="subject">Subject</label> 
-                  <input type="subject" id="subject" class="form-control">
-                </div>
+              <div class="form-row">
+                <label for="contact-form-phone">Phone:</label>
+                <input id="contact-form-phone" class="form-input" type="tel" name="phone" autocomplete="off">
               </div>
-
-              <div class="row form-group">
-                <div class="col-md-12">
-                  <label class="text-black" for="message">Message</label> 
-                  <textarea name="message" id="message" cols="30" rows="7" class="form-control" placeholder="Write your notes or questions here..."></textarea>
-                </div>
+              <div class="form-row">
+                <label for="contact-form-message">Message:</label>
+                <textarea id="contact-form-message" class="form-input" name="message" required autocomplete="off"></textarea>
               </div>
-
-              <div class="row form-group">
-                <div class="col-md-12">
-                  <input type="submit" value="Send Message" class="btn btn-primary btn-md text-white">
-                </div>
-              </div>
-
-  
+              <button type="submit">Submit</button>
             </form>
+            
           </div>
           
         </div>
@@ -742,3 +714,52 @@
   
   </body>
 </html>
+
+<style>
+   #contact-form {
+      max-width: 400px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #ffffff;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      animation: fadeIn 0.5s ease;
+    }
+
+    .form-row {
+      margin-bottom: 20px;
+    }
+
+    label {
+      font-weight: bold;
+    }
+
+    .form-input {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    button {
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      padding: 10px 20px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #0056b3;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+</style>
