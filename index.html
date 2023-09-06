@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="css/bootstrap-datepicker.css">
 
     <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+    <link rel="stylesheet" href="css/animated-icons.css">
 
     <link rel="stylesheet" href="css/aos.css">
 
@@ -26,7 +27,9 @@
     <link rel="icon" type="image/svg+xml" href="images/Logo.svg">
     <link rel="alternate icon" href="images/Logo.svg">
     
-  </head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
   <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
   
 
@@ -206,7 +209,7 @@
         <div class="row mb-5 justify-content-center">
           <div class="col-md-8 text-center">
             <h2 class="section-title mb-3" data-aos="fade-up" data-aos-delay="">About Us</h2>
-            <p>Slalom Consulting Limited is a leading consulting company specializing in financial consulting services, catering to individuals and businesses across the African continent. Established with a vision to empower African entrepreneurs and investors, we are committed to providing tailored strategies and expert guidance for successful informed financial decision-making.</p>
+            <p>Slalom Consultants Limited is a leading consulting company specializing in financial consulting services, catering to individuals and businesses across the African continent. Established with a vision to empower African entrepreneurs and investors, we are committed to providing tailored strategies and expert guidance for successful informed financial decision-making.</p>
           </div>
         </div>
         <div class="row">
@@ -441,14 +444,14 @@
               <div class="carousel-inner text-center">
                 <div class="carousel-item active">
                   <div class="mb-5" data-aos="fade-up" data-aos-delay="100">
-                    <h3 class="text-black h4 mb-4">What services does Slalom Consulting Limited offer?</h3>
+                    <h3 class="text-black h4 mb-4">What services does Slalom Consultants Limited offer?</h3>
                     <p>We specialize in providing financial consulting services. We offer a range of services catering to both individuals and businesses across the African continent. Our expertise includes financial analysis, investment strategies, risk assessment, wealth management, and more.</p>
                   </div>
                 </div>
 
             <div class="carousel-item">
               <div class="mb-5" data-aos="fade-up" data-aos-delay="100">
-                <h3 class="text-black h4 mb-4">Who does Slalom Consulting serve?</h3>
+                <h3 class="text-black h4 mb-4">Who does Slalom Consultants serve?</h3>
                 <p>Our mission is to empower African entrepreneurs and investors by providing them with expert financial guidance and strategies. We believe that informed financial decision-making is key to unlocking opportunities and achieving success. By offering personalized advice and solutions, we aim to contribute to the growth and prosperity of African businesses and individuals.</p>
               </div>
             </div>
@@ -469,15 +472,15 @@
 
             <div class="carousel-item">
               <div class="mb-5" data-aos="fade-up" data-aos-delay="100">
-                <h3 class="text-black h4 mb-4">What sets Slalom Consulting apart from other consulting firms?</h3>
+                <h3 class="text-black h4 mb-4">What sets Slalom Consultants apart from other consulting firms?</h3>
                 <p>What sets us apart is our exclusive focus on the African continent. Our deep understanding of the local economic landscape, combined with our financial expertise, allows us to provide tailored solutions that resonate with the unique challenges and opportunities present in Africa. We are committed to fostering sustainable growth and helping our clients make impactful financial choices.</p>
               </div>
             </div>
 
             <div class="carousel-item">
               <div class="mb-5" data-aos="fade-up" data-aos-delay="100">
-                <h3 class="text-black h4 mb-4">How can I get in touch with Slalom Consulting for their services?</h3>
-                <p>To get in touch with us, you can visit our website www.slalomconsulting.com and use the contact informatiheaon provided. You can also reach out via email at info@slalomconsultants.co.ke or call our toll-free number listed on the website.</p>
+                <h3 class="text-black h4 mb-4">How can I get in touch with Slalom Consultants for their services?</h3>
+                <p>To get in touch with us, you can visit our website <www class="website">slalomconsultants.co.ke</www> and use the contact information provided. You can also reach out via email at <a href="mailto:info@slalomconsultants.co.ke">info@slalomconsultants.co.ke</a>  or call us through number listed on the website.</p>
               </div>
             </div>
 
@@ -521,7 +524,7 @@
                 </div>
           <div class="col-md-6">
               <!-- Contact form -->
-              <form id="contact-form">
+              <form id="contact-form" action="mailto:info@slalomconsultants.co.ke" method="post" enctype="text/plain">
                   <div class="form-row form-error" style="display:none;"></div>
                   <div class="form-row">
                       <label for="contact-form-name">Name:</label>
@@ -539,16 +542,21 @@
                       <label for="contact-form-message">Message:</label>
                       <textarea id="contact-form-message" class="form-input" name="message" required autocomplete="off"></textarea>
                   </div>
-                  <button type="submit" onclick="sendEmail(event);">Submit</button>
+                  <button type="submit" class="btn btn-primary" data-aos="fade-up">Send Message</button>
         </form>
+        <div class="contact-info">
+        <div class="info-row"><h4>Also reach us on...</h4>
+            <i class="fas fa-phone" style="color: red;"></i> <!-- Phone Icon in Red -->
+            <a href="tel:+202000023" class="info-text"><strong>2020 000 23</strong></a>
+        </div>
 
-              <!-- Social media icons -->
-              <div class="social-icons">
-                  <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
-                  <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
-                  <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
-                  <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
-              </div>
+        <div class="info-row">
+            <i class="fas fa-envelope" style="color: green;"></i> <!-- Email Icon -->
+            <a href="mailto:info@slalomconsultants.co.ke" class="info-text"><strong>info@slalomconsultants.co.ke</strong></a>
+        </div>
+    </div>
+
+
           </div>
       </div>
   </div>
